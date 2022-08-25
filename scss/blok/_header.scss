@@ -1,0 +1,40 @@
+.header{
+    background: rgba(255, 255, 255, 1);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-left: -50px;
+    //   padding: 10px;
+  
+      &__nav{
+        display: flex;
+        &__list{
+          display: flex;
+          gap: 25px;
+          list-style: none;
+          align-items: center; 
+      }
+      &__item{
+        text-decoration: none;
+        color: #FFFFFF;
+        // background-color: rgb(175, 149, 45);
+    }
+        &__btn{
+          border: 1.5px solid #2C2830;
+          background: #FFFFFF;
+          color: rgba(44, 40, 48, 1);
+          width: 146px;
+          height: 40px;
+        }
+        &__btn:hover{
+          color: blue;
+          background-color: antiquewhite;
+          font-size: 20px;
+        }
+        &__btn:active{
+          color: #FFFFFF;
+          display: none;
+        }
+      }
+      
+  }

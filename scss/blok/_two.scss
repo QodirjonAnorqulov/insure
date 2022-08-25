@@ -1,0 +1,18 @@
+.two-section{
+    padding: 43px 0;
+    width: 100%;
+    display: flex;
+    // text-align: center;
+    margin-left: 60px;
+    justify-content:space-around;
+    align-items: center;
+    &__left{
+        width: 27%;
+    }
+    &__center{
+        width: 27%;
+    }
+    &__right{
+        width: 27%;
+    }
+}

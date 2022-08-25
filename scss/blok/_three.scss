@@ -1,0 +1,31 @@
+.three-section{
+    margin-top: 50px;
+    background: #2D2641;
+    background-image: url(../../images/Group\ 10.svg );
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 69px 0 69px 11px;
+    &__left{
+        h2{
+            font-size: 56px;
+            line-height: 56px;
+            font-weight: 400;
+            letter-spacing: -0.777778px;
+            color: #FFFFFF;
+            width: 475px;
+        }    
+    }
+    &__right{
+        button{
+            width: 160px;
+            height: 40px;
+            border: 1.5px solid rgba(255, 255, 255, 1);
+            color: #FFFFFF;
+            background-color: transparent;
+        }
+    }
+   
+}
